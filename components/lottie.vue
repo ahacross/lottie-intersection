@@ -12,9 +12,9 @@ export default {
       script: [
         {
           hid: 'lottie',
-          src: 'https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.1/lottie.min.js',
+          src: '/library/lottie.min.js',
           defer: true,
-          callback: () => { this.isLottieLoaded = true; },
+          callback: (lottie) => { this.isLottieLoaded = true; },
         }
       ]
     }

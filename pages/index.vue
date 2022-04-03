@@ -5,9 +5,7 @@
 </template>
 
 <script>
-import lottie from "@/components/lottie"
 export default {
   name: 'IndexPage',
-  components: { lottie }
 }
 </script>
