@@ -1,4 +1,5 @@
 import Vue from 'vue';
+require('intersection-observer');
 
 Vue.directive('intersectionViewport', {
   bind(el, binding, vnode) {
